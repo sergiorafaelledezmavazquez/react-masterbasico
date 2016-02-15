@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.raafelledezma.pruebareact"
+    version   = "1.0.0">
+
+<name>React</name>
+
+<description>
+React
+</description>
+
+<author href="https://www.rafaelledezmavazquez.com" email="sergior_ledezma_vazquez@hotmail.com">
+Leonidas
+</author>
+
+<gap:plugin name="org.apache.cordova.device"/>
+<gap:plugin name="org.apache.cordova.dialogs" />
+<gap:plugin name="org.apache.cordova.contacts" version="0.2.9" />
+<gap:plugin name="org.apache.cordova.camera"/>
+	
+<preference name="phonegap-version" value="3.3.0" />
+</widget>
